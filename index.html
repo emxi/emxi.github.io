@@ -116,6 +116,89 @@
 							</section> -->
 
 						<!-- Get Started -->
+
+							<section class="main special">
+								<header class="major">
+									<h2>How to use EMXI</h2>
+									<p>After importation, EMXI gives you the following options. Tags, unless specified are "IDs" only. Meaning if you specify the tag <code>"footer"</code>, the tag you are producing might look like <code>&lt;div id="footer"&gt;&lt;/div&gt;</code>.</p>
+									<h3>EMXI Core functions</h3>
+									<table>
+										<tr>
+											<th>Function</th><th>Description</th><th>Parameters</th>
+										</tr>
+										<tr>
+											<td>core.getDate</td><td>Get the date and time of page visitors visit</td><td>tag = string</td>
+										</tr>
+										<tr>
+											<td>core.getTime</td><td>Get the active time from page visitors time zone</td><td>tag = string</td>
+										</tr>
+										<tr>
+											<td>core.redirect</td><td>Redirects onclick</td><td>url = string</td>
+										</tr>
+									</table>
+									<h3>EMXI Media Functions</h3>
+									<table>
+										<tr>
+											<th>Function</th><th>Description</th><th>Parameters</th>
+										</tr>
+										<tr>
+											<td>media.AddYouTubeVideo</td><td>Adds a YouTube video by video ID</td><td>tag = string; videoURL = string</td>
+										</tr>
+										<tr>
+											<td>media.addAudio</td><td>Adds MP3 audio</td><td>tag = string; audioURL = string</td>
+										</tr>
+									</table>
+									<h3>EMXI Page Functions</h3>
+									<table>
+										<tr>
+											<th>Function</th><th>Description</th><th>Parameters</th>
+										</tr>
+										<tr>
+											<td>page.setFooter</td><td>Sets footer with your name in copyright for current year</td><td>tag = string; name = string; otherTM = optional string</td>
+										</tr>
+									</table>
+									<h3>EMXI Math Functions</h3>
+									<table>
+										<tr>
+											<th>Function</th><th>Description</th><th>Parameters</th>
+										</tr>
+										<tr>
+											<td>area.square</td><td>Calculate area of square</td><td>tag = string; sideLength = int</td>
+										</tr>
+										<tr>
+											<td>area.rect</td><td>Calculate area of rectangle</td><td>tag = string; side1 = int; side2 = int</td>
+										</tr>
+										<tr>
+											<td>area.rightTriangle</td><td>Calculate area of a right triangle, use the two perpendicular sides.</td><td>tag = string; side1 = int; side2 = int</td>
+										</tr>
+										<tr>
+											<td>area.circle</td><td>Calculate area of a circle</td><td>tag = string; radius = int</td>
+										</tr>
+										<tr>
+											<td>area.circleByDiameter</td><td>Calculate area of a circle using the diameter</td><td>tag = string; diameter = int</td>
+										</tr>
+										<tr>
+											<td>perimeter.square</td><td>Calculate the perimeter of a square</td><td>tag = string; sideLength = int</td>
+										</tr>
+										<tr>
+											<td>perimeter.rect</td><td>Calculate the perimeter of a rectangle</td><td>tag = string; side1 = int; side2 = int</td>
+										</tr>
+										<tr>
+											<td>perimeter.rightTriangle</td><td>Calculate the perimeter of a right triangle</td><td>tag = string; side1 = int; side2 = int</td>
+										</tr>
+										<tr>
+											<td>perimeter.circle</td><td>Calculate the perimeter of a circle</td><td>tag = string; radius = int</td>
+										</tr>
+										<tr>
+											<td>perimeter.circleByDiameter</td><td>Calculate the perimeter of a circle using the diameter</td><td>tag = string; diameter = int</td>
+										</tr>
+										<tr>
+											<td>math.dice</td><td>Random dice throw</td><td>tag = string; sides = int; count = int</td>
+										</tr>
+									</table>
+								</header>
+							</section>
+
 							<section id="cta" class="main special">
 								<header class="major">
 									<h2>A project by Fivnex</h2>
